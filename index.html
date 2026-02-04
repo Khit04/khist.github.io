@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khit Si Thu | Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Khist.</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h1 class="section-title">About Me</h1>
+            
+            <!-- Bio Card -->
+            <div class="bio-card">
+                <div class="bio-content">
+                    <h2>Khit Si Thu</h2>
+                    <h3>Data Scientist | Machine Learning Engineer</h3>
+                    <p class="bio-text">
+                        Passionate about transforming scattered and unstructured real-world data into actionable insights and applied models. 
+                        Skilled in data cleaning, management and analysis with a strong focus on data quality and validation. 
+                        Currently achieved a First-Class in Master's in Applied Data Science, specialising in Statistics, 
+                        Machine Learning, AI, and Graph Neural Networks.
+                    </p>
+                    
+                    <div class="skills-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Graph Neural Networks</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">Web Development</span>
+                    </div>
+                </div>
+                <div class="bio-image">
+                    <!-- Placeholder for profile photo -->
+                    <div class="profile-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Cards -->
+            <h2 class="subsection-title">Education</h2>
+            <div class="education-cards">
+                <!-- Dynamic cards will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Experience -->
+            <h2 class="subsection-title">Work Experience</h2>
+            <div class="experience-cards">
+                <!-- Dynamic cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h1 class="section-title">Projects</h1>
+            <div class="projects-grid">
+                <!-- Dynamic project cards will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Languages -->
+            <h2 class="subsection-title">Languages</h2>
+            <div class="languages-container">
+                <!-- Dynamic content will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h1 class="section-title">Contact</h1>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:khist.kst@gmail.com">khist.kst@gmail.com</a>
+                            <br>
+                            <a href="mailto:kt24500@essex.ac.uk">kt24500@essex.ac.uk</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <a href="tel:+447564156146">+44 7564156146</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>SE1 2DH, Bermondsey, London, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Khit04" target="_blank">github.com/Khit04</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/khist" target="_blank">linkedin.com/in/khist</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Khit Si Thu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "year": "2026",
+      "title": "Multivariate Crime Prediction in London Using Spatio-Temporal Graph Neural Network (STGNN-ZINB)",
+      "description": "A Graph Neural Network (GNN) model which can learn both spatial and temporal crime patterns and predict multiple crimes simultaneously. Implementing a Zero-Inflated Negative Binomial (ZINB) loss to control zero-inflated issues.",
+      "technologies": ["Python", "PyTorch", "GNN", "KNN", "Time-Series", "EDA", "Self-Attention", "Hypothesis Testing"],
+      "github": "https://github.com/Khit04",
+      "demo": null,
+      "image": "assets/images/Project1.png"
+    },
+    {
+      "year": "2026",
+      "title": "Data Jobs Power BI Dashboards",
+      "description": "Transforming real-world job posting data into interactive dashboards using Power BI Desktop. Provides clear insights into job titles, salaries, locations, and in-demand skills.",
+      "technologies": ["Power BI", "Power Query", "ETL", "Data Visualization", "Dashboard", "Interactive Slicers", "Buttons", "Drill-Through"],
+      "github": "https://github.com/Khit04/PowerBI-Dashboards",
+      "demo": null,
+      "image": "assets/images/DataJobs.png"
+    },
+    {
+      "year": "2025",
+      "title": "Predicting Autism Spectrum Disorder with Machine Learning & Models Comparison",
+      "description": "AI-based predictive model that improves the early and accurate diagnosis of Autism Spectrum Disorder. Analyze & select most efficient and high-accuracy Model.",
+      "technologies": ["Python", "scikit-learn", "pandas", "SVM", "Random Forest", "Logistic Regression", "KNN"],
+      "github": "https://github.com/Khit04/Predicting-Autism-Spectrum-Disorder-with-Machine-Learning",
+      "demo": null,
+      "image": "assets/images/ASD.png"
+    },
+    {
+        "year": "2025",
+        "title": "Data Visualization & Analysis of Crime Patterns in Colchester, Essex, UK (2024-2025) using R",
+        "description": "Visualises crime incidents in Colchester, UK during 2024-2025 and analyses their potential relationship with climates and environmental factors.",
+        "technologies": ["R", "Plotly", "Shiny", "Leaflet", "Data Visualization", "Statistical Analysis", "Data Cleaning"],
+        "github": "https://github.com/Khit04/Crime-Patterns-in-Colchester-2024-2025-with-Weather-Correlations-with-R",
+        "demo": null,
+        "image": "assets/images/Colchester.png"
+    },
+    {
+        "year": "2024",
+        "title": "AI Powered Image Editing Web Application",
+        "description": "An intelligent image editing platform that allows users to restore images, remove objects, recolor objects, generative fill, and remove backgrounds. This projects consists of APIs analysis and testing performance via postman and the best free APIs are implemented. ",
+        "technologies": ["NextJS", "MongoDB", "APIs", "Cloud", "Stripe Payment", "UI/UX", "NoSQL"],
+        "github": "https://github.com/Khit04/AiPowerImageEditor",
+        "demo": null,
+        "image": "assets/images/ImageEdit.png"
+    },
+    {
+        "year": "2023",
+        "title": "Live Chat Room Application",
+        "description": "Designed a real-time application focusing on streaming data ingestion and storage with Firebase Authentication and Database.",
+        "technologies": ["Vue3", "Firebase", "JavaScript", "Real-time", "Authentication"],
+        "github": "https://github.com/Khit04/Live-Chat-Room-App",
+        "demo": null,
+        "image": "assets/images/LiveChat.jpg"
+    },
+    {
+        "year": "2023",
+        "title": "Receipe Web Application",
+        "description": "A responsive and user-friendly recipe web app that allows users and chefs to Register or log in, Add or edit recipes. It also enables users to: Search and filter recipes, Save favorites, Rate recipes for a personalized cooking experience",
+        "technologies": ["HTML5", "Bootstrap", "JQuery", "PHP", "MySQL"],
+        "github": "https://github.com/Khit04/ReceipeWebApplication",
+        "demo": null,
+        "image": "assets/images/Receipes.png"
+    }
+  ]
+}
+
+
+    
+    
+   
+
