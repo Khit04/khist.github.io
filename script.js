@@ -1,6 +1,7 @@
 // DOM Elements
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
+const navLinksItems = document.querySelectorAll('.nav-link');
 const currentYear = document.getElementById('currentYear');
 const educationCards = document.querySelector('.education-cards');
 const experienceCards = document.querySelector('.experience-cards');
@@ -12,16 +13,45 @@ const messageForm = document.getElementById('messageForm');
 currentYear.textContent = new Date().getFullYear();
 
 // Mobile menu toggle
-menuToggle.addEventListener('click', () => {
+menuToggle.addEventListener('click', (e) => {
+    e.stopPropagation(); // Add this line
     navLinks.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
+    menuToggle.innerHTML = navLinks.classList.contains('active') 
+        ? '<i class="fas fa-times"></i>' 
+        : '<i class="fas fa-bars"></i>';
 });
 
 // Close mobile menu when clicking a link
-document.querySelectorAll('.nav-link').forEach(link => {
+navLinksItems.forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
+        document.body.classList.remove('menu-open');
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
     });
 });
+
+// Close menu when clicking outside
+document.addEventListener('click', (event) => {
+    const isClickInsideNav = navLinks.contains(event.target);
+    const isClickOnToggle = menuToggle.contains(event.target);
+    
+    if (!isClickInsideNav && !isClickOnToggle && navLinks.classList.contains('active')) {
+        navLinks.classList.remove('active');
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        document.body.classList.remove('menu-open');
+    }
+});
+
+// Close menu on escape key
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        navLinks.classList.remove('active');
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        document.body.classList.remove('menu-open');
+    }
+});
+
 
 // Education data from CV
 const educationData = [
@@ -251,8 +281,8 @@ async function loadProjects() {
         renderProjectCards();
     }
 }
-// Render project cards
 
+// Render project cards
 function renderProjectCards() {
     if (projectsData.length === 0) {
         projectsGrid.innerHTML = '<p class="no-projects">No projects to display</p>';
@@ -328,7 +358,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderExperienceCards();
     renderLanguages();
     loadProjects();
-    renderProjectCards();
     
     // Add scroll effect to navbar
     window.addEventListener('scroll', () => {
