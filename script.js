@@ -145,28 +145,24 @@ const experienceData = [
         company: "KBZ Bank Limited, Yangon, Myanmar",
         period: "2023",
         focus: [
-            "API Creation and Integration using C#.Net & ASP.NET within Smart HR System",
-            "Database Implementation & Testing",
-            "Backend development for employee management features",
-            "Integration with existing banking systems",
-            "Code optimization and performance testing"
+            "Designed and implemented RESTful APIs using C# (.NET/ASP.NET) integrated with Oracle Database to manage employee and HR system data.",
+            "Optimised database workflows by identifying bottlenecks and refactoring inefficient SQL queries, improving system performance and data processing efficiency.",
+            "Collaborated with senior teams to integrate new features and ensure the system met real user needs."
         ],
         icon: "💻",
         tech: ["C#.NET", "ASP.NET", "SQL", "API Development"]
     },
     {
-        title: "Junior Accountant",
+        title: "Financial Data Analyst",
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
         period: "2020-22",
         focus: [
-            "Customer Information Entry and database management",
-            "Gold Price & Interest Calculation for transactions",
-            "Financial Record Management and bookkeeping",
-            "Daily sales reporting and inventory tracking",
-            "Cash flow monitoring and reconciliation"
+            "Managed customer transaction databases and financial records to maintain data integrity for financial reporting and business analytics.",
+            "Analyzed gold price fluctuations and calculated loan interest rates to support financial decision-making and risk assessment.",
+            "Generated financial reports and performed data reconciliation to track revenue trends and identify discrepancies in financial records."
         ],
         icon: "📊",
-        tech: ["Financial Analysis", "Data Entry", "Record Keeping", "MS Excel"]
+        tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Business Analytics"]
     }
 ];
    
