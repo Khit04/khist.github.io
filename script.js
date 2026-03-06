@@ -162,7 +162,7 @@ const experienceData = [
             "Generated financial reports and performed data reconciliation to track revenue trends and identify discrepancies in financial records."
         ],
         icon: "📊",
-        tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Business Analytics"]
+        tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
     }
 ];
    
