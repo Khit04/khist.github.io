@@ -141,21 +141,21 @@ const educationData = [
 // Experience data from CV
 const experienceData = [
     {
-        title: "Software Developer Intern",
+        title: "Data Engineer Intern",
         company: "KBZ Bank Limited, Yangon, Myanmar",
-        period: "2023",
+        period: "June 2023 - Sept 2023",
         focus: [
             "Designed and implemented RESTful APIs using C# (.NET/ASP.NET) integrated with Oracle Database to manage employee and HR system data.",
             "Optimised database workflows by identifying bottlenecks and refactoring inefficient SQL queries, improving system performance and data processing efficiency.",
             "Collaborated with senior teams to integrate new features and ensure the system met real user needs."
         ],
         icon: "💻",
-        tech: ["C#.NET", "ASP.NET", "SQL", "API Development"]
+        tech: ["C#.NET", "Oracle SQL", "ETL Pipelines", "Data Integration"]
     },
     {
         title: "Financial Data Analyst",
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
-        period: "2020-22",
+        period: "April 2021 - May 2022",
         focus: [
             "Managed customer transaction databases and financial records to maintain data integrity for financial reporting and business analytics.",
             "Analyzed gold price fluctuations and calculated loan interest rates to support financial decision-making and risk assessment.",
@@ -165,7 +165,6 @@ const experienceData = [
         tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
     }
 ];
-   
 
 // Languages data from CV
 const languagesData = [
