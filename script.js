@@ -141,25 +141,25 @@ const educationData = [
 // Experience data from CV
 const experienceData = [
     {
-        title: "Data Engineer Intern",
+        title: "Data Engineer",
         company: "KBZ Bank Limited, Yangon, Myanmar",
-        period: "June 2023 - Sept 2023",
+        period: "June 2023 - Sept 2024",
         focus: [
-            "Designed and implemented RESTful APIs using C# (.NET/ASP.NET) integrated with Oracle Database to manage employee and HR system data.",
-            "Optimised database workflows by identifying bottlenecks and refactoring inefficient SQL queries, improving system performance and data processing efficiency.",
-            "Collaborated with senior teams to integrate new features and ensure the system met real user needs."
+            "Optimised BigQuery data models and SQL queries for HR analytics systems supporting 4,500+ employees, reducing query execution time by 40% and significantly improving reporting performance.",
+            "Built scalable ETL pipelines using Google Cloud Dataflow and Cloud Composer, integrating employee data from multiple sources and enabling near real-time HR reporting.",
+            "Monitored and maintained data pipelines using Cloud Monitoring, ensuring 99.5% data accuracy and quickly resolving production issues."
         ],
         icon: "💻",
-        tech: ["C#.NET", "Oracle SQL", "ETL Pipelines", "Data Integration"]
+        tech: ["Python", "BigQuery SQL", "Google Cloud Dataflow", "Cloud Composer"]
     },
     {
         title: "Financial Data Analyst",
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
         period: "April 2021 - May 2022",
         focus: [
-            "Managed customer transaction databases and financial records to maintain data integrity for financial reporting and business analytics.",
-            "Analyzed gold price fluctuations and calculated loan interest rates to support financial decision-making and risk assessment.",
-            "Generated financial reports and performed data reconciliation to track revenue trends and identify discrepancies in financial records."
+            "Managed transaction database processing 500+ daily transactions, creating SQL-based dashboards to track revenue, inventory, and loan portfolio performance.",
+            "Analysed gold price trends across global markets to inform pricing strategies, calculating loan interest rates that reduced defaults by 15% while maintaining competitiveness.",
+            "Automated financial reporting with data visualizations, performing daily reconciliations to identify annual discrepancies and ensure audit-ready accuracy."
         ],
         icon: "📊",
         tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
