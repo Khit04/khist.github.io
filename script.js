@@ -163,6 +163,18 @@ const experienceData = [
         ],
         icon: "📊",
         tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
+    },
+    {
+        title: "Data Analyst (Internship)",
+        company: "Myanmar International Consulting Engineers Group (MICEG)",
+        period: "Dec 2021 – Feb 2022",
+        focus: [
+            "Assisted in preparing and organising project datasets, supporting data entry, validation, and basic exploratory analysis using Excel.",
+            "Supported the creation of summary reports and data visualisations to assist project teams with decision-making.",
+            "Collaborated with team members on ad hoc data tasks, maintaining clear documentation of findings and methodologies."
+        ],
+        icon: "📊",
+        tech: ["Data Analysis", "Reporting", "Visualization", "Excel"]
     }
 ];
 
