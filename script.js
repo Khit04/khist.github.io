@@ -143,7 +143,7 @@ const experienceData = [
     {
         title: "Data Engineer",
         company: "KBZ Bank Limited, Yangon, Myanmar",
-        period: "June 2023 - Sept 2024",
+        period: "June 2022 - Sept 2024",
         focus: [
             "Optimised BigQuery data models and SQL queries for HR analytics systems supporting 4,500+ employees, reducing query execution time by 40% and significantly improving reporting performance.",
             "Built scalable ETL pipelines using Google Cloud Dataflow and Cloud Composer, integrating employee data from multiple sources and enabling near real-time HR reporting.",
@@ -155,7 +155,7 @@ const experienceData = [
     {
         title: "Financial Data Analyst",
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
-        period: "April 2021 - May 2022",
+        period: "April 2020 - May 2022",
         focus: [
             "Managed transaction database processing 500+ daily transactions, creating SQL-based dashboards to track revenue, inventory, and loan portfolio performance.",
             "Analysed gold price trends across global markets to inform pricing strategies, calculating loan interest rates that reduced defaults by 15% while maintaining competitiveness.",
@@ -166,8 +166,8 @@ const experienceData = [
     },
     {
         title: "Data Analyst (Internship)",
-        company: "Myanmar International Consulting Engineers Group (MICEG)",
-        period: "Dec 2021 – Feb 2022",
+        company: "Coca-Cola Beverages Myanmar",
+        period: "Jan 2022 – April 2022",
         focus: [
             "Assisted in preparing and organising project datasets, supporting data entry, validation, and basic exploratory analysis using Excel.",
             "Supported the creation of summary reports and data visualisations to assist project teams with decision-making.",
