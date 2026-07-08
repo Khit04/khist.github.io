@@ -59,7 +59,7 @@ const educationData = [
         title: "Master of Science (MSc) in Applied Data Science",
         period: "2025-2026",
         institution: "University of Essex, Colchester, United Kingdom",
-        achievement: "First Class 🏆",
+        achievement: "First Class 93% 🏆",
         achievementType: "honors",
         modules: [
             "Data Visualisation",
@@ -77,7 +77,7 @@ const educationData = [
         title: "Bachelor of Science (Hons) in Computer Networks",
         period: "2023-2024",
         institution: "Liverpool John Moores University, Liverpool, United Kingdom",
-        achievement: "First Class 🏆",
+        achievement: "First Class 86% 🏆",
         achievementType: "honors",
         modules: [
             "Database Systems",
@@ -141,27 +141,45 @@ const educationData = [
 // Experience data from CV
 const experienceData = [
     {
-        title: "Data Engineer",
+        title: "Junior Data Engineer",
         company: "KBZ Bank Limited, Yangon, Myanmar",
         period: "June 2022 - Sept 2024",
         focus: [
-            "Optimised BigQuery data models and SQL queries for HR analytics systems supporting 4,500+ employees, reducing query execution time by 40% and significantly improving reporting performance.",
-            "Built scalable ETL pipelines using Google Cloud Dataflow and Cloud Composer, integrating employee data from multiple sources and enabling near real-time HR reporting.",
-            "Monitored and maintained data pipelines using Cloud Monitoring, ensuring 99.5% data accuracy and quickly resolving production issues."
+            "Developed ETL pipelines for their Smarter HR Management System integrating 4500+ employee data from HR, payroll, attendance, Active Directory, and learning management systems into a centralized data warehouse.",
+            "Developed backend API endpoints using C# (.NET Core Web API) to expose curated datasets to internal applications and could optimize queries behind the API to improve response time by 40%.",
+            "Built interactive HR dashboards in Power BI (DAX, Power Query) to visualize workforce metrics, including headcount, employee turnover, leave balances, departmental distribution, and diversity statistics."
         ],
         icon: "💻",
-        tech: ["Python", "BigQuery SQL", "Google Cloud Dataflow", "Cloud Composer"]
+        tech: ["Python", "BigQuery SQL", "Google Cloud Platform", "API Development", "Power BI", "ETL Pipelines"]
+    },
+    {
+        title: "Data Analyst Internship",
+        company: "Coca-Cola Beverages Myanmar, Yangon, Myanmar",
+        period: "Jan 2022 - April 2022",
+        focus: [
+            "Assisted in preparing and cleaning large-scale sales and product datasets across multiple beverage categories using Excel (Pivot Tables, VLOOKUP, data cleaning functions) to ensure accurate reporting.",
+            "Built summary dashboards and visual reports in Excel to track sales trends, distribution coverage, and promotional performance across different regions",
+            "Collaborated with sales and marketing teams on ad hoc analysis requests, including seasonal demand patterns and promotion effectiveness."
+        ],
+        icon: "📈",
+        tech: ["Excel", "SQL", "Data Cleansing", "Reporting", "Data Visualization"]
     },
     {
         title: "Financial Data Analyst",
+<<<<<<< HEAD
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
         period: "April 2020 - May 2022",
+=======
+        company: "Aung Yadanar Gold & Jewellery Shop, Yangon, Myanmar",
+        period: "April 2021 - May 2022",
+>>>>>>> 6336164 (Update profile image styling and improve design)
         focus: [
             "Managed transaction database processing 500+ daily transactions, creating SQL-based dashboards to track revenue, inventory, and loan portfolio performance.",
             "Analysed gold price trends across global markets to inform pricing strategies, calculating loan interest rates that reduced defaults by 15% while maintaining competitiveness.",
             "Automated financial reporting with data visualizations, performing daily reconciliations to identify annual discrepancies and ensure audit-ready accuracy."
         ],
         icon: "📊",
+<<<<<<< HEAD
         tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
     },
     {
@@ -175,6 +193,9 @@ const experienceData = [
         ],
         icon: "📊",
         tech: ["Data Analysis", "Reporting", "Visualization", "Excel"]
+=======
+        tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel", "SQL"]
+>>>>>>> 6336164 (Update profile image styling and improve design)
     }
 ];
 
@@ -182,7 +203,7 @@ const experienceData = [
 const languagesData = [
     {
         name: "English",
-        details: "Duolingo Score: 130. Diploma in Wall Street English, Yangon, Myanmar. Upper Intermediate in General English at British Council Myanmar"
+        details: "Duolingo Score: 130. Diploma in Wall Street English, Yangon, Myanmar."
     },
     {
         name: "Burmese",
@@ -190,7 +211,7 @@ const languagesData = [
     },
     {
         name: "Chinese",
-        details: "Basic"
+        details: "Conversational"
     }
 ];
 
