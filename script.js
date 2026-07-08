@@ -166,36 +166,15 @@ const experienceData = [
     },
     {
         title: "Financial Data Analyst",
-<<<<<<< HEAD
         company: "Aung Yadanar Gold & Jewellery Shop, Myanmar",
         period: "April 2020 - May 2022",
-=======
-        company: "Aung Yadanar Gold & Jewellery Shop, Yangon, Myanmar",
-        period: "April 2021 - May 2022",
->>>>>>> 6336164 (Update profile image styling and improve design)
         focus: [
             "Managed transaction database processing 500+ daily transactions, creating SQL-based dashboards to track revenue, inventory, and loan portfolio performance.",
             "Analysed gold price trends across global markets to inform pricing strategies, calculating loan interest rates that reduced defaults by 15% while maintaining competitiveness.",
             "Automated financial reporting with data visualizations, performing daily reconciliations to identify annual discrepancies and ensure audit-ready accuracy."
         ],
         icon: "📊",
-<<<<<<< HEAD
         tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel"]
-    },
-    {
-        title: "Data Analyst (Internship)",
-        company: "Coca-Cola Beverages Myanmar",
-        period: "Jan 2022 – April 2022",
-        focus: [
-            "Assisted in preparing and organising project datasets, supporting data entry, validation, and basic exploratory analysis using Excel.",
-            "Supported the creation of summary reports and data visualisations to assist project teams with decision-making.",
-            "Collaborated with team members on ad hoc data tasks, maintaining clear documentation of findings and methodologies."
-        ],
-        icon: "📊",
-        tech: ["Data Analysis", "Reporting", "Visualization", "Excel"]
-=======
-        tech: ["Financial Analysis", "Reporting", "Pricing Analysis", "Excel", "SQL"]
->>>>>>> 6336164 (Update profile image styling and improve design)
     }
 ];
 
