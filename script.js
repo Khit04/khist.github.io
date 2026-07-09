@@ -59,7 +59,7 @@ const educationData = [
         title: "Master of Science (MSc) in Applied Data Science",
         period: "2025-2026",
         institution: "University of Essex, Colchester, United Kingdom",
-        achievement: "First Class 93% 🏆",
+        achievement: "First Class 93% - Best Student Award 🏆 ",
         achievementType: "honors",
         modules: [
             "Data Visualisation",
@@ -71,7 +71,7 @@ const educationData = [
             "Mathematics for Data Science"
         ],
         dissertation: "Multivariate Crime-Prediction in London using the Spatio-Temporal Graph Neural Network with Zero-Inflated Negative Binomial Distribution (STGNN-ZINB) - Currently Prepared for Publication",
-        color: "linear-gradient(to bottom, #4361ee, #4cc9f0)"
+        color: "linear-gradient(to bottom, #000000, #20a9d3)"
     },
     {
         title: "Bachelor of Science (Hons) in Computer Networks",
@@ -88,7 +88,7 @@ const educationData = [
             "User Experience Design"
         ],
         dissertation: null,
-        color: "linear-gradient(to bottom, #4361ee, #3f37c9)"
+        color: "linear-gradient(to bottom, #20a9d3, #000000)"
     },
     {
         title: "Higher Diploma in Infrastructure & Networks",
@@ -105,7 +105,7 @@ const educationData = [
             "Virtualization"
         ],
         dissertation: null,
-        color: "linear-gradient(to bottom, #4cc9f0, #3f37c9)"
+        color: "linear-gradient(to bottom, #000000,  #20a9d3)"
     },
     {
         title: "Finished 2nd Year in Computer Science & Networking",
@@ -122,7 +122,7 @@ const educationData = [
             "Communication Skills"
         ],
         dissertation: null,
-        color: "linear-gradient(to bottom, #4361ee, #f72585)"
+        color: "linear-gradient(to bottom, #20a9d3, #000000)"
     },
     {
         title: "High School Education",
@@ -133,7 +133,7 @@ const educationData = [
         modules: null,
         details: "Five Distinctions: Myanmar, Mathematics, Physics, Chemistry, Biology",
         dissertation: null,
-        color: "linear-gradient(to bottom, #f72585, #4361ee)"
+        color: "linear-gradient(to bottom, #000000, #20a9d3)"
     }
 ];
    
