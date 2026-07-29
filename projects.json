@@ -71,9 +71,22 @@
         "github": "https://github.com/Khit04/ReceipeWebApplication",
         "demo": "",
         "image": "assets/images/Receipes.png"
+    },
+    {
+        "year": "2026",
+        "title": "Invoice Automation Workflow n8n ",
+        "description": "An automated invoice delivery workflow built with n8n that retrieves unpaid invoices from Google Sheets, finds the corresponding PDF invoice in Google Drive, emails it to the customer, and updates the invoice status automatically.",
+        "technologies": ["n8n", "Google OAuth 2.0", "Google Sheets API", "Google Drive API", "Gmail"],
+        "github": "https://github.com/Khit04/Invoice-Automation-Workflow-n8n-",
+        "demo": "",
+        "image": "assets/images/Invoice Workflow n8n.png"
     }
   ]
 }
+
+
+
+
 
 
     
